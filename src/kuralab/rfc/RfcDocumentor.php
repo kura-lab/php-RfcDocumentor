@@ -2,6 +2,10 @@
 
 namespace kuralab\rfc;
 
+require_once(dirname(__FILE__) . "/DictDB.php");
+
+use kuralab\rfc\DictDB;
+
 class RfcDocumentor
 {
     private $url = 'http://tools.ietf.org/rfc/rfc';
@@ -20,7 +24,15 @@ class RfcDocumentor
         $rank = array_count_values($words);
         arsort($rank);
 
-        return $rank;
+        $result = array();
+        $db = new DictDB();
+        foreach ($rank as $word => $frequency) {
+            $item = $db->search($word);
+            $result[$word]["mean"] = $item[2];
+            $result[$word]["frequency"] = $frequency;
+        }
+
+        return $result;
     }
 
     public function fetchRfc()
