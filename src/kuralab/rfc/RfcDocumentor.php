@@ -27,8 +27,8 @@ class RfcDocumentor
         $result = array();
         $db = new DictDB();
         foreach ($rank as $word => $frequency) {
-            $item = $db->search($word);
-            $result[$word]["mean"] = $item[2];
+            $items = $db->search($word);
+            $result[$word]["mean"] = $items;
             $result[$word]["frequency"] = $frequency;
         }
 
