@@ -15,14 +15,8 @@ Create composer.json.
 
 ```
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/kura-lab/php-RfcDocumentor"
-        }
-    ],
     "require": {
-        "kura-lab/php-RfcDocumentor": "dev-master"
+        "kura-lab/php-RfcDocumentor": "2.*"
     }
 }
 ```
