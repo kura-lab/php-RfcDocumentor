@@ -1,10 +1,10 @@
 {
-    "name": "kura-lab/php-RfcDocumentor",
-    "description": "RfcDocumentor",
+    "name": "kura-lab/php-rfc-documentor",
+    "description": "Rfc Documentor",
     "keywords": ["RFC", "Parser", "Documentor", "Analyzer"],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/kura-lab/php-RfcDocumentor",
+    "homepage": "https://github.com/kura-lab/php-rfc-documentor",
     "authors": [
       {
         "name": "kura",

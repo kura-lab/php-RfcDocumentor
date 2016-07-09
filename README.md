@@ -1,5 +1,5 @@
-# php-RfcDocumentor
-RfcDocumentor analyzes RFC in tools.ietf.org.
+# php-rfc-documentor
+RFC Documentor analyzes RFC in tools.ietf.org.
 
 ### Install
 
@@ -16,12 +16,12 @@ Create composer.json.
 ```
 {
     "require": {
-        "kura-lab/php-RfcDocumentor": "2.*"
+        "kura-lab/php-rfc-documentor": "2.*"
     }
 }
 ```
 
-Install RfcDocumentor library.
+Install RFC Documentor library.
 
 ```
 $ php composer.phar install
