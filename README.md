@@ -1,6 +1,9 @@
 # php-rfc-documentor
 RFC Documentor analyzes RFC in tools.ietf.org.
 
+[![Packagist](https://img.shields.io/packagist/v/kura-lab/php-rfc-documentor.svg)](https://packagist.org/packages/kura-lab/php-rfc-documentor)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/kura-lab/php-rfc-documentor/blob/master/LICENSE)
+
 ### Install
 
 At first, install composer.
